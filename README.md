@@ -65,3 +65,15 @@ function Users() {
   return <h2>Users</h2>;
 }
 ```
+
+# Adding Auth0
+
+Here's my guess at what needs to happen
+
+- Copy my streamlined react-auth-spa.js
+- Create auth_config.json
+- App.js: Add a "Profile" page that is protected
+- App.js: Implement "PrivateRoute"
+- Switch from Router to HashRouter
+- index.js: Create onRedirectCallback
+- index.js: Wrap <app> in <Auth0Provider>
