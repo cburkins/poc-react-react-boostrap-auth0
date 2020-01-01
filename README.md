@@ -1,6 +1,8 @@
-# Description
+# Background
 
-Needed to teach myself more about Auth0 authentication. So built this POC using:
+This is the 2nd part of my 2nd attempt of using Auth0 for user authentication in a React app. The goals of this POC was to start with CRA (create-react-app) again, use react-bootstrap rather than reactstrap (as I did in previous attempt), and leverage my own slimmed down version of react-auth0-spa.js.
+
+I built this POC using:
 
 -   React
 -   Bootstrap (via react-bootstrap, not reactstrap)
@@ -17,7 +19,7 @@ And when you authenticate, it looks like this:
 # Building this App
 
 -   Started with my own repo "poc-react-react-boostrap"
--   That one started with "npx create-react-app poc-react-react-bootstrap"
+-   As review, remember that repo started with "npx create-react-app poc-react-react-bootstrap"
 -   Then applied basics of react-router-dom and react-boostrap
 -   Starting from here, I want to apply a basic Auth0 configuration for login
 -   In the beginning, App.js looks like this:
