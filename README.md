@@ -1,6 +1,22 @@
-# The Basics
+# Description
 
--   Started with repo "poc-react-react-boostrap"
+Needed to teach myself more about Auth0 authentication. So built this POC using:
+
+-   React
+-   Bootstrap (via react-bootstrap, not reactstrap)
+-   Auth0 (via @auth0/auth0-spa-js)
+
+It demonstrates authentication using OIDC which uses OAuth 2.0 Authorization Code Grant (flow).
+
+![image](https://user-images.githubusercontent.com/9342308/71644598-01339e80-2c99-11ea-95e5-aa26c904ae49.png)
+
+And when you authenticate, it looks like this:
+
+![image](https://user-images.githubusercontent.com/9342308/71644610-2de7b600-2c99-11ea-8ce2-5fa247f6b4b3.png)
+
+# Building this App
+
+-   Started with my own repo "poc-react-react-boostrap"
 -   That one started with "npx create-react-app poc-react-react-bootstrap"
 -   Then applied basics of react-router-dom and react-boostrap
 -   Starting from here, I want to apply a basic Auth0 configuration for login
