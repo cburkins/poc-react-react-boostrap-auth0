@@ -191,6 +191,7 @@ export const Auth0Provider = ({ children, onRedirectCallback = DEFAULT_REDIRECT_
 }
 ```
 
+<<<<<<< HEAD
 ##### Wrap entire app in Auth0
 
 New version of index.js looks like this:
@@ -259,3 +260,16 @@ import { Link } from "react-router-dom";
     <Nav.Item><Nav.Link as={Link} to="/users">Users</Nav.Link></Nav.Item>
 </Nav>
 ```
+=======
+# Adding Auth0
+
+Here's my guess at what needs to happen
+
+- Copy my streamlined react-auth-spa.js
+- Create auth_config.json
+- App.js: Add a "Profile" page that is protected
+- App.js: Implement "PrivateRoute"
+- Switch from Router to HashRouter
+- index.js: Create onRedirectCallback
+- index.js: Wrap <app> in <Auth0Provider>
+>>>>>>> afe1c91d0f71d0b35d47175d6c2c93f7c50757bc
